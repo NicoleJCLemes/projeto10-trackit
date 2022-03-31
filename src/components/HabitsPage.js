@@ -2,11 +2,11 @@ import HabitsHeader from "./HabitsHeader";
 import HabitsMain from "./HabitsMain";
 import HabitsFooter from "./HabitsFooter";
 
-function HabitsPage(){
+function HabitsPage(props){
     return(
         <>
             <HabitsHeader />
-            <HabitsMain />
+            <HabitsMain token={props.token} />
             <HabitsFooter />
         </>
     )

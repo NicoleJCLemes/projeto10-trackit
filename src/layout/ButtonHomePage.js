@@ -12,6 +12,13 @@ const ButtonHomePage = styled.button`
     text-align: center;
     color: #FFFFFF;
     margin-bottom: 25px;
+
+    .opacity {
+        opacity: 0.7;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 `
 
 export default ButtonHomePage;

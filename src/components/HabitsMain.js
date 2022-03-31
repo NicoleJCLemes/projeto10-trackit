@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 import Header from '../layout/Header';
 
-function HabitsMain() {
+function HabitsMain(props) {
+    const {token} = props
     return(
         <Main>
             <Header>
